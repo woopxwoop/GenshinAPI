@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "enka-network-api": "^5.0.9"
+  },
+  "name": "genshinapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "An Lou",
+  "license": "MIT"
+}

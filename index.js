@@ -1,3 +1,18 @@
-const { getUser } = require("./test");
+// const { getUser } = require("./test");
 
-console.log(getUser(621003558));
+import getUser from "./test.js";
+const UID = 621003558;
+
+let genshinUser;
+
+try {
+  genshinUser = await getUser(UID);
+} catch (error) {
+  console.error("Invalid fetch");
+}
+
+if (genshinUser) {
+  genshinUser.then((result) => {
+    console.log(result);
+  });
+}
